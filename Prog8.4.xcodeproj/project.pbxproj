@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		84D77FE81FD12E570085BF0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D77FE71FD12E570085BF0C /* main.m */; };
+		84D77FF01FD12EA70085BF0C /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D77FEF1FD12EA70085BF0C /* XYPoint.m */; };
+		84D77FF31FD12F650085BF0C /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D77FF21FD12F650085BF0C /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		84D77FE41FD12E570085BF0C /* Prog8.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prog8.4; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D77FE71FD12E570085BF0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D77FEE1FD12EA70085BF0C /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		84D77FEF1FD12EA70085BF0C /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		84D77FF11FD12F650085BF0C /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		84D77FF21FD12F650085BF0C /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				84D77FE71FD12E570085BF0C /* main.m */,
+				84D77FEE1FD12EA70085BF0C /* XYPoint.h */,
+				84D77FEF1FD12EA70085BF0C /* XYPoint.m */,
+				84D77FF11FD12F650085BF0C /* Rectangle.h */,
+				84D77FF21FD12F650085BF0C /* Rectangle.m */,
 			);
 			path = Prog8.4;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D77FE81FD12E570085BF0C /* main.m in Sources */,
+				84D77FF01FD12EA70085BF0C /* XYPoint.m in Sources */,
+				84D77FF31FD12F650085BF0C /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
